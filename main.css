@@ -16,6 +16,7 @@ body{
     height: 100%;
     background: url(images/sitebg.jpg) no-repeat center fixed;
     background-size: cover;
+    overflow-x: hidden;
 
 
 }
@@ -224,6 +225,19 @@ li{
     font-size: 2rem;
     font-weight: 300;
 }
+.education{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.education h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 2rem -2px  2rem 0;
+}
 
 
 
@@ -264,7 +278,8 @@ li{
     width: 50%;
     justify-content: center;
     align-items: center;
-    margin-left: 11.5rem;
+    margin-left: 11rem;
+  
     
   border-radius: 2rem;
   
@@ -526,7 +541,7 @@ ul.social li a:hover {
     border: none;
 }
 
-
+.timeline .date::before,
 .timeline .date::after{
     position:absolute;
     display: block;
@@ -534,6 +549,14 @@ ul.social li a:hover {
     transform: translateY(-50%);
 
 
+}
+
+.timeline .date::before{
+    content: attr(data-date);
+    left: -21rem;
+    text-align: right;
+    min-width: 12rem;
+    font-size: 1.5rem;
 }
 
 
@@ -696,7 +719,6 @@ li{
     margin: 0 0 0 auto;
 }
 
-
 .timeline .date::after{
     left: -6.1rem
 }
@@ -724,7 +746,11 @@ li{
     .profile-img{
         margin: 0 0 7rem 0;
         order: 1;
+    
+        
     }
+    
+   
     .work-item{
         flex-direction: column;
     }
@@ -745,5 +771,36 @@ li{
     .up{
         right:2rem
     }
+}
+
+
+@media screen and (max-width: 300px){
+    .menu-toggler{
+        top: 4rem;
+        right: 4rem;
+    }
+    .landing-text h1{
+        font-size: 6rem;
+    }
+    .landing-text h6{
+        font-size: 1rem;
+    }
+    .nav-link{
+        font-size: 2.5rem;
+    }
+    .about .container{
+        flex-direction: column;
+        margin-left: 5rem;
+    }
+    .about .social{
+        margin-left: -5rem;
+    }
+    .profile-img{
+        margin-left: -12.5rem;
+    }
+    .timeline .date::before{
+    margin-left:3rem;
+    }
+
 }
 
