@@ -777,7 +777,7 @@ li{
 @media screen and (max-width: 360px){
     .menu-toggler{
         top: 4rem;
-        right: 4rem;
+        left: 4rem;
     }
     .landing-text h1{
         font-size: 6rem;
