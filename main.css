@@ -798,9 +798,7 @@ li{
     .profile-img{
         margin-left: -7rem;
     }
-    .timeline .date::before{
-    margin-left:1.5rem;
-    }
+   
 
 }
 
