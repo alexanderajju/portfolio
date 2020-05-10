@@ -774,7 +774,7 @@ li{
 }
 
 
-@media screen and (max-width: 300px){
+@media screen and (max-width: 260px){
     .menu-toggler{
         top: 4rem;
         right: 4rem;
@@ -796,7 +796,7 @@ li{
         margin-left: -5rem;
     }
     .profile-img{
-        margin-left: -12.5rem;
+        margin-left: -9rem;
     }
     .timeline .date::before{
     margin-left:3rem;
