@@ -11,13 +11,18 @@ html{
     scroll-behavior: smooth;
 
 }
+.site-wrapper{
+    overflow-x: hidden;
+    
+
+}
 body{
     width: 100%;
     height: 100%;
     background: url(images/sitebg.jpg) no-repeat center fixed;
     background-size: cover;
-    overflow-x: hidden;
-
+    
+    
 
 }
 section{
@@ -775,9 +780,7 @@ li{
 
 
 @media screen and (max-width: 360px){
-     body{
-        overflow-x: hidden;
-    }
+   
     .menu-toggler{
         top: 5rem;
         left: 5rem;
@@ -800,11 +803,11 @@ li{
     }
     .profile-img{
         margin-left: -7rem;
-    } 
-	.timeline .date::before{
-    margin-left:1rem;
     }
-   
+    .timeline .date::before{
+    padding-left: 15px;
+    }
+    
 
 }
 
