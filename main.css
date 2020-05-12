@@ -18,7 +18,9 @@ body{
     background: url(images/sitebg.jpg) no-repeat center fixed;
     background-size: cover;
     overflow-x: hidden;
-    
+}
+.site-wrapper{
+    overflow: hidden;
     
 
 }
@@ -780,7 +782,7 @@ li{
    
     .menu-toggler{
         top: 5rem;
-        left: 5rem;
+        right: 5rem;
     }
 	body{
 	overflow-x:hidden;
