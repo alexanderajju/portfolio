@@ -245,25 +245,31 @@
                 <h1>Contact</h1>
                 <h6>lets work</h6>
             </div>
-            <form id="enquiry" action="mailto:alexanderajju@gmail.com" method="GET" enctype="text/plain" data-aos="fade-up" data-aos-delay="300">
-                <label for="name">Name</label>
-                <input type="text" name="names" id="name" placeholder="Enter Your Name">
-                <label for="email">Email</label>
-                <input type="email" name="mail" id="email" placeholder="Enter Your Email">
-                <label for="service">Service</label>
-                <select name="service" id="service">
+            <form id="enquiry" action="https://formspree.io/myynzqrr" method="POST"  data-aos="fade-up"
+                data-aos-delay="300">
+                <label for="_name">Name
+                <input type="text" name="_name" id="name" placeholder="Enter Your Name">
+                </label>
+                <label for="_replyto">Email
+                <input type="email" name="_replyto" id="email" placeholder="Enter Your Email">
+                </label>
+                <label for="_option">Service
+                <select name="_option" id="service">
                     <option value="">Select</option>
                     <option value="Web Design ">Web Design</option>
                     <option value="Web Development">Web Development</option>
                     <option value="Web Design & Web Development">Web Design & Web Development</option>
                 </select>
-                <label for="mobile">Mobile Number</label>
-                <input type="tel" name="number" id="mobile" placeholder="Enter Your Mobile Number">
-                <label for="subject">Subject</label>
-                
-                <textarea id="subject"  name="subject" cols="10" rows="10" ></textarea>
+                </label>
+                <label for="_mobile">Mobile Number
+                <input type="tel" name="_mobile" id="mobile" placeholder="Enter Your Mobile Number">
+                </label>
+                <label for="subject">Subject
+            
+                <textarea id="subject" name="subject" cols="10" rows="10"></textarea>
+                </label>
                 <input id="submit" type="submit" value="submit">
-                <input type="reset" value="reset" >
+                <input type="reset" value="reset">
             </form>
         </div>
     </section>
