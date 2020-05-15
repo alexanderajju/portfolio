@@ -121,7 +121,7 @@ header{
     height: 100vh;
     position: fixed;
     z-index: 50;
-    top: -100vh;
+    top: -200vh;
     background-color: #16162d;
     border-bottom-right-radius :100% ;
     border-bottom-left-radius :100% ;
