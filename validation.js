@@ -1,24 +1,24 @@
 $(document).ready(function () {
     $("#enquiry").validate({
         rules: {
-            names: {
+            _name: {
                 required: true,
                 minlength: 5,
 
             },
 
-            mail: {
+            _replyto: {
                 required: true,
                 email: true,
             },
-            service: {
+            _option: {
                 required: true,
             },
             subject: {
                 required: true,
 
             },
-            number: {
+            _mobile: {
                 required: true,
                 number: true,
                 minlength: 10,
