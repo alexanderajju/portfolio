@@ -466,10 +466,12 @@ ul.social li a:hover {
 
 }
 
+
 .work-item{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
@@ -577,12 +579,15 @@ ul.social li a:hover {
 
 .contact{
     background-color: #221e3f;
+    
 
 }
 
 form{
     width: 70%;
     margin: 0 auto;
+    
+    
 }
 
 form label{
