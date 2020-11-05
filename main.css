@@ -214,9 +214,10 @@ li{
     z-index: 1;
 
 }
+/* 'Courier New', Courier, monospace */
 .landing-text h1{
     font-size: 20rem;
-    font-family: cursive;
+    font-family: 'Tangerine', serif;
     background: white;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
